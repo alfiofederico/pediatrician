@@ -101,23 +101,23 @@
         <div class="column">
           <div class="column-1">
                   <div class="form-1">
-                    <form name="contact" action="POST" class="callback-form" netlify>
+                    <form name="contact" method="POST" class="callback-form" data-netlify="true">
                       <div class="form-control">
                         <h2>Per informazioni:</h2>
                         <label for="name">
                         <input type="text" name="name" id="name" placeholder="Nome"></label>
                       </div>
                       <div class="form-control">
-                        <label for="email"></label>
+                        <label for="email">
                         <input type="email" name="email" id="email" placeholder="E-mail">
                       </div>
                       <div class="form-control">
-                        <label for="phone"></label>
-                        <input type="text" name="phone" id="phone" placeholder="Telefono">
+                        <label for="phone">
+                        <input type="text" name="phone" id="phone" placeholder="Telefono"></label>
                       </div>
                       <div class="form-control">
-                        <label for="message"></label>
-                        <textarea name="message" id="message" placeholder="Messaggio"></textarea>
+                        <label for="message">
+                        <textarea name="message" id="message" placeholder="Messaggio"></textarea></label>
                       </div>
                       <input type="submit" value="Invia" id="submit" class="btn">
                     </form>
