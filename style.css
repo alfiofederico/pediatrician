@@ -287,7 +287,7 @@ img{
     margin-top: 10px;
   } */
 
-  .column-1 .form-1 {
+  .column-1 .informazioni {
     display:flex;
     max-width: 350px;
     font-size: 10px;
@@ -347,7 +347,7 @@ img{
 
 
 
-.form-1 {
+.informazioni{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 700px;
   display: flex;
