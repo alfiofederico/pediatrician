@@ -27,7 +27,7 @@
   color: #333;
 }
 
-.btn{
+.btn, .btn-2{
   cursor: pointer;
   display: inline-block;
   padding: 10px 30px;

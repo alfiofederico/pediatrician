@@ -190,6 +190,12 @@ img{
   margin-top: 20px;
 }
 
+.callback-form .btn-2{
+  padding: 12px 0;
+  margin-top: 20px;
+}
+
+
 .callback-form textarea{
   width: 100%;
   padding: 4px;
