@@ -334,6 +334,10 @@ img{
   .post img{
      width: 70%;
   }
+
+  .content.card-1 h1 {
+    font-size: 24px;
+  }
 }
 
 
