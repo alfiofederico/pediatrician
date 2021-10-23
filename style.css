@@ -398,4 +398,8 @@ img {
   .content.card-1 h1 {
     font-size: 24px;
   }
+
+  .specialized {
+    font-size: 15px;
+  }
 }
