@@ -265,7 +265,7 @@ img {
   border-radius: 50%;
   height: 250px;
   width: 250px;
-
+  height: 100%;
 }
 
 
@@ -278,7 +278,7 @@ img {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  height: fit-content;
+  height: 250px;
 
 }
 
@@ -290,9 +290,12 @@ img {
   margin-bottom: 1em;
   margin-top: 1em;
   box-sizing: border-box;
-  
+  height: 100%;
 }
 
+.altezza {
+  height: 100%;
+}
 
 
 .informazioni {
@@ -304,6 +307,7 @@ img {
   justify-content: center;
   margin: auto;
   padding: 10px;
+  height: 100%;
 }
 
 
@@ -316,6 +320,8 @@ img {
   flex-direction: column;
   justify-content: left;
   align-items: left;
+  height: 100%;
+  
 }
 
 
@@ -324,6 +330,7 @@ img {
 .info {
   margin-bottom: 20px;
   font-weight: bold;
+  height: 100%;
 }
 
 
