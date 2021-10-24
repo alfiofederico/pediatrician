@@ -335,7 +335,11 @@ img {
   height: 100%;
 }
 
-
+.mypage {
+  text-decoration: underline;
+  color: #28a745;
+  font-weight: bold;
+}
 
 /* Media Queries */
 
