@@ -278,19 +278,21 @@ img {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  height: 250px;
+  height: 300px;
 
 }
 
 .info {
   font-size: 10px;
-  line-height: 24px;
+  line-height: 20px;
+  text-align: left;
   height: auto;
   padding: 5px;
   margin-bottom: 1em;
   margin-top: 1em;
   box-sizing: border-box;
   height: 100%;
+  margin-left: 20px;
 }
 
 .altezza {
@@ -427,4 +429,6 @@ img {
   .card {
     height: auto;
   }
+
+  
 }
