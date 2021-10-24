@@ -430,4 +430,8 @@ img {
     height: auto;
     
   }
+
+  .informazioni {
+    height: 500px ;
+  }
 }
