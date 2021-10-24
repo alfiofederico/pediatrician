@@ -422,4 +422,9 @@ img {
   .specialized {
     font-size: 15px;
   }
+
+
+  .card {
+    height: auto;
+  }
 }
