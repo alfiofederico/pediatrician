@@ -373,4 +373,10 @@ img {
   .informazioni {
     height: 500px;
   }
+
+  #contact {
+  position: relative;
+  background: url(./image_resources/bg.jpg) no-repeat 0 0;
+  background-size: center;
+}
 }
