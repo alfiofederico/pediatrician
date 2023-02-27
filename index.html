@@ -142,27 +142,27 @@
             </div>
           </div>
           <div class="col-md-6">
-              <form name="contatti" method="POST" class="callback-form"  data-netlify="true">
+            <form name="contatti" method="POST" class="callback-form " action="/success.html" data-netlify="true">
               <div>
                 <p class="h3 fw-bold fontKid text-light">Per informazioni:</p>
               </div>
-              <!-- <div class="form-floating mb-3 mt-3"> -->
-                <input type="text" name="namet" id="namero" placeholder="Nome" class="form-control rounded">
-                <label for="name"></label>
-             <!--  </div> -->
-              <!-- <div class="form-floating mb-3 mt-3"> -->
+              <div class="form-floating mb-3 mt-3"> 
+                <input type="text" name="name" id="namero" placeholder="Nome" class="form-control rounded">
+                <label for="name">Nome</label>
+             </div> 
+              <div class="form-floating mb-3 mt-3"> 
                 <input type="email" name="emailt" id="emailto" placeholder="E-mail" class="form-control rounded">
-                <label for="emailto"></label>
-              <!-- </div> -->
-              <!-- <div class="form-floating mb-3 mt-3"> -->
-                <input type="text" name="phone" id="phonetor" placeholder="Telefono" class="form-control rounded">
-                <label for="phoneto"></label>
-              <!-- </div> -->
-              <!-- <div class="form-floating mb-3 mt-3"> -->
-                <textarea name="messaget" id="messaget" placeholder="Messaggio" rows="4"
+                <label for="emailto">Email</label>
+              </div> 
+              <div class="form-floating mb-3 mt-3"> 
+                <input type="text" name="phone" id="phoneto" placeholder="Telefono" class="form-control rounded">
+                <label for="phoneto">Telefono</label>
+              </div> 
+             <div class="form-floating mb-3 mt-3">
+                <textarea name="message" id="messaget" placeholder="Messaggio" rows="4"
                   class="form-control rounded"></textarea>
-                <label for="message"></label>
-             <!--  </div> -->
+                <label for="message">Messaggio</label>
+             </div> 
               
               <button type="submit" value="Invia" id="submitto" name="sub"
                 class="btn btn-success btn-lg btn-round-full mt-2">
